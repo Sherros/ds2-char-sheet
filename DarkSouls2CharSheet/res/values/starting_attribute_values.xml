@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!--
+	Values are arranged in the order they appear within the game's character sheet screen.
+	The org.nu.ds2cs.data.Attributes constructor which receives an int[] as its parameter
+	is expecting this order.
+	-->
+
+	<integer-array name="class_dualswordsman">
+		<item>8</item>
+		<item>10</item>
+		<item>8</item>
+		<item>8</item>
+		<item>14</item>
+		<item>17</item>
+		<item>8</item>
+		<item>11</item>
+		<item>8</item>
+		<item>8</item>
+	</integer-array>
+
+	<integer-array name="class_hunter">
+		<item>11</item>
+		<item>12</item>
+		<item>8</item>
+		<item>8</item>
+		<item>11</item>
+		<item>18</item>
+		<item>8</item>
+		<item>8</item>
+		<item>8</item>
+		<item>8</item>
+	</integer-array>
+	
+	<integer-array name="class_soldier">
+		<item>10</item>
+		<item>9</item>
+		<item>11</item>
+		<item>8</item>
+		<item>12</item>
+		<item>16</item>
+		<item>8</item>
+		<item>10</item>
+		<item>8</item>
+		<item>8</item>
+	</integer-array>
+
+	<integer-array name="class_sorcerer">
+		<item>8</item>
+		<item>8</item>
+		<item>8</item>
+		<item>16</item>
+		<item>8</item>
+		<item>8</item>
+		<item>8</item>
+		<item>8</item>
+		<item>20</item>
+		<item>16</item>
+	</integer-array>
+
+	<integer-array name="class_templeknight">
+		<item>9</item>
+		<item>8</item>
+		<item>8</item>
+		<item>12</item>
+		<item>12</item>
+		<item>11</item>
+		<item>8</item>
+		<item>8</item>
+		<item>10</item>
+		<item>16</item>
+	</integer-array>
+
+	<integer-array name="class_warrior">
+		<item>11</item>
+		<item>10</item>
+		<item>13</item>
+		<item>8</item>
+		<item>16</item>
+		<item>8</item>
+		<item>10</item>
+		<item>8</item>
+		<item>8</item>
+		<item>8</item>
+	</integer-array>
+</resources>

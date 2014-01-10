@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- Axes -->
+	<string name="wep_axe_dragonslayerscrescent">Dragonslayer\'s Crescent Axe</string>
+	
+	<!-- Bows -->
+	<string name="wep_bow_short">Short Bow</string>
+	
+	<!-- Crossbows -->
+	<string name="wep_xbow_light">Light Crossbow</string>
+	
+	<!-- Daggers -->
+	<string name="wep_dag_dagger">Dagger</string>
+	<string name="wep_dag_royaldirk">Royal Dirk</string>
+	
+	<!-- Greataxes -->
+	<string name="wep_gaxe_great">Greataxe</string>
+	
+	<!-- Greatswords -->
+	<string name="wep_gswd_bastard">Bastard Sword</string>
+	<string name="wep_gswd_knights">Knight\'s Greatsword</string>
+	
+	<!-- Katanas -->
+	<string name="wep_kat_inquisitors">Inquisitor\'s Blade</string>
+	
+	<!-- Polearms -->
+	<string name="wep_pole_dragonridershalberd">Dragonrider\'s Halberd</string>
+	
+	<!-- Sacred Bells -->
+	<string name="wep_sbel_disc">Disc Bell</string>
+	<string name="wep_sbel_dragonknights">Dragonknight\'s Bell</string>
+	<string name="wep_sbel_idol">Bell of the Idol</string>
+	
+	<!-- Shields -->
+	<string name="wep_shld_dragonknight">Dragonknight\'s Shield</string>
+	<string name="wep_shld_goldenwing">Golden Wing Shield</string>
+	<string name="wep_shld_imperial">Imperial Shield</string>
+	<string name="wep_shld_silvereaglekite">Silver Eagle Kite Shield</string>
+	<string name="wep_shld_smallleather">Small Leather Shield</string>
+	<string name="wep_shld_target">Target Shield</string>
+	
+	<!-- Spears -->
+	<string name="wep_spr_winged">Winged Spear</string>
+	
+	<!-- Staves -->
+	<string name="wep_stf_lizard">Lizard Staff</string>
+	<string name="wep_stf_witchtreebranch">Witchtree Branch</string>
+	
+	<!-- Straight Swords -->
+	<string name="wep_sswd_short">Shortsword</string>
+	<string name="wep_sswd_long">Longsword</string>
+	
+	<!-- Thrusting Swords -->
+	<string name="wep_tswd_estoc">Estoc</string>
+	
+	<!-- Ultra Greatswords -->
+	<string name="wep_ugswd_pursuers">Pursuer\'s Greatsword</string>
+	<string name="wep_ugswd_zweihander">Zweihander</string>
+</resources>

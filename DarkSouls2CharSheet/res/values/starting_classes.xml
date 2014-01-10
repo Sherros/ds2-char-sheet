@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- Starting Class Names -->
+	<string name="class_dualswordsman">Dual Swordsman</string>
+	<string name="class_hunter">Hunter</string>
+	<string name="class_soldier">Soldier</string>
+	<string name="class_sorcerer">Sorcerer</string>
+	<string name="class_templeknight">Temple Knight</string>
+	<string name="class_warrior">Warrior</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="rng_binding">Binding Ring</string>
+	<string name="rng_bloodcrest">Crest of Blood</string>
+	<string name="rng_dispelling">Dispelling Ring</string>
+	<string name="rng_guardseal">Guardian\'s Seal</string>
+	<string name="rng_redtear">Red Tearstone Ring</string>
+	<string name="rng_resistance">Ring of Resistance</string>
+	<string name="rng_restoration">Ring of Restoration</string>
+	<string name="rng_royalsolder">Royal Soldier\'s Ring</string>
+	<string name="rng_war">Ring of War</string>
+</resources>

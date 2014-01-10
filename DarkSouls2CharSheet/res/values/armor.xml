@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="arm_head_black">Black Hood</string>
+	<string name="arm_chst_black">Black Robes</string>
+	<string name="arm_hand_black">Black Gloves</string>
+	<string name="arm_feet_black">Black Boots</string>
+	
+	<string name="arm_head_chaos">Chaos Hood</string>
+	<string name="arm_chst_chaos">Chaos Robes</string>
+	<string name="arm_hand_chaos">Chaos Gloves</string>
+	<string name="arm_feet_chaos">Chaos Boots</string>
+	
+	<string name="arm_head_defender">Defender Helm</string>
+	<string name="arm_chst_defender">Defender Mail</string>
+	<string name="arm_hand_defender">Defender\'s Guantlet</string>
+	<string name="arm_feet_defender">Defender\'s Leggings</string>
+	
+	<string name="arm_head_dispatcher">Dispatcher\'s Hood</string>
+	<string name="arm_chst_dispatcher">Dispatcher\'s Robes</string>
+	
+	<string name="arm_head_dragonknight">Dragonknight Helm</string>
+	<string name="arm_chst_dragonknight">Dragonknight Robes</string>
+	<string name="arm_hand_dragonknight">Dragonknight Gloves</string>
+	<string name="arm_feet_dragonknight">Dragonknight Boots</string>
+	
+	<string name="arm_head_faraam">Faraam Helm</string>
+	<string name="arm_chst_faraam">Faraam Armor</string>
+	<string name="arm_hand_faraam">Faraam Gauntlets</string>
+	<string name="arm_feet_faraam">Faraam Boots</string>
+	
+	<string name="arm_head_hollowmage">Hollow Mage Hood</string>
+	<string name="arm_chst_hollowmage">Hollow Robes</string>
+	
+	<string name="arm_head_knight">Knight Helm</string>
+	<string name="arm_chst_knight">Knight Armor</string>
+	<string name="arm_hand_knight">Knight Gauntlets</string>
+	<string name="arm_feet_knight">Knight Leggings</string>
+	
+	<string name="arm_head_hunter">Hunter\'s Hat</string>
+	<string name="arm_chst_leather">Leather Armor</string>
+	<string name="arm_hand_leather">Leather Gloves</string>
+	<string name="arm_feet_leather">Leather Boots</string>
+	
+	<string name="arm_chst_llewellyn">Llewellyn Armor</string>
+	<string name="arm_hand_llewellyn">Llewellyn Gloves</string>
+	<string name="arm_feet_llewellyn">Llewellyn Shoes</string>
+	
+	<string name="arm_head_prisoner">Prisoner\'s Hood</string>
+	<string name="arm_chst_prisoner">Prisoner\'s Tatters</string>
+	<string name="arm_hand_prisoner">Prisoner\'s Gloves</string>
+	<string name="arm_feet_prisoner">Prisoner\'s Waistcloth</string>
+	
+	<string name="arm_head_rogue">Rogue Hood</string>
+	<string name="arm_chst_rogue">Rogue Armor</string>
+	<string name="arm_hand_rogue">Rogue Gauntlets</string>
+	<string name="arm_feet_rogue">Rogue Leggings</string>
+</resources>

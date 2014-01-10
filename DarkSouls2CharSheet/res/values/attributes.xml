@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- Attribute Names -->
+	<string name="attr_agility">Agility</string>
+	<string name="attr_attunement">Attunement</string>
+	<string name="attr_dexterity">Dexterity</string>
+	<string name="attr_endurance">Endurance</string>
+	<string name="attr_faith">Faith</string>
+	<string name="attr_intelligence">Intelligence</string>
+	<string name="attr_resistance">Resistance</string>
+	<string name="attr_strength">Strength</string>
+	<string name="attr_vigor">Vigor</string>
+	<string name="attr_vitality">Vitality</string>
+</resources>

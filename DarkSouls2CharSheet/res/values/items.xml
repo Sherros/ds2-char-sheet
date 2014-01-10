@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="itm_blossom_green">Green Blossom</string>
+	<string name="itm_effigy_human">Human Effigy</string>
+	<string name="itm_herb_twilight">Twilight Herb</string>
+	<string name="itm_lifegem">Lifegem</string>
+	<string name="itm_lifegem_radiant">Radiant Lifegem</string>
+	<string name="itm_spitetoken">Token of Spite</string>
+	<string name="itm_torch">Torch</string>
+	<string name="itm_urn_witch">Witching Urn</string>
+	<string name="itm_whitesign">White Sign Soapstone</string>
+	<string name="itm_whitesign_small">Small White Sign Soapstone</string>
+</resources>
