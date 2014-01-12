@@ -6,7 +6,8 @@
 	is expecting this order.
 	-->
 
-	<integer-array name="class_dualswordsman">
+	<item name="class_dualswordsman_level" type="integer">21</item>
+	<integer-array name="class_dualswordsman_attributes">
 		<item>8</item>
 		<item>10</item>
 		<item>8</item>
@@ -18,8 +19,9 @@
 		<item>8</item>
 		<item>8</item>
 	</integer-array>
-
-	<integer-array name="class_hunter">
+	
+	<item name="class_hunter_level" type="integer">21</item>
+	<integer-array name="class_hunter_attributes">
 		<item>11</item>
 		<item>12</item>
 		<item>8</item>
@@ -32,7 +34,8 @@
 		<item>8</item>
 	</integer-array>
 	
-	<integer-array name="class_soldier">
+	<item name="class_soldier_level" type="integer">21</item>
+	<integer-array name="class_soldier_attributes">
 		<item>10</item>
 		<item>9</item>
 		<item>11</item>
@@ -44,8 +47,9 @@
 		<item>8</item>
 		<item>8</item>
 	</integer-array>
-
-	<integer-array name="class_sorcerer">
+	
+	<item name="class_sorcerer_level" type="integer">29</item>
+	<integer-array name="class_sorcerer_attributes">
 		<item>8</item>
 		<item>8</item>
 		<item>8</item>
@@ -57,8 +61,9 @@
 		<item>20</item>
 		<item>16</item>
 	</integer-array>
-
-	<integer-array name="class_templeknight">
+	
+	<item name="class_templeknight_level" type="integer">23</item>
+	<integer-array name="class_templeknight_attributes">
 		<item>9</item>
 		<item>8</item>
 		<item>8</item>
@@ -70,8 +75,9 @@
 		<item>10</item>
 		<item>16</item>
 	</integer-array>
-
-	<integer-array name="class_warrior">
+	
+	<item name="class_warrior_level" type="integer">21</item>
+	<integer-array name="class_warrior_attributes">
 		<item>11</item>
 		<item>10</item>
 		<item>13</item>

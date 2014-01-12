@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+	<!--
+	<ListView android:id="@+id/characterList"
+			android:layout_alignParentLeft="true"
+			android:layout_alignParentTop="true" />
+	-->
+	<Button android:id="@+id/createNewCharacterButton"
+			android:gravity="center_horizontal"
+			android:text="@string/app_btn_create_new_character" />
+</RelativeLayout>
