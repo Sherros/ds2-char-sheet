@@ -13,7 +13,7 @@ public class MainActivity extends Activity
     public void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
-		setContentView(R.layout.character_list);
+		setContentView(R.layout.character_sheet);
 		
 		/*
 		CharSheet test = testMethod();

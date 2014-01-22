@@ -2,4 +2,19 @@
 <resources>
     <string name="app_name">Dark Souls 2 Character Sheet Manager</string>
 	<string name="app_btn_create_new_character">Create New Character</string>
+	<string name="app_btn_save_sheet">Save</string>
+	<string name="app_prompt_starting_class">Choose A Starting Class</string>
+	
+	<string name="cs_field_name">Name</string>
+	<string name="cs_field_class">Starting Class</string>
+	<string name="cs_field_level">Soul Level</string>
+	<string name="cs_field_vit">Vitality</string>
+	<string name="cs_field_att">Attunement</string>
+	<string name="cs_field_end">Endurance</string>
+	<string name="cs_field_str">Strength</string>
+	<string name="cs_field_dex">Dexterity</string>
+	<string name="cs_field_res">Resistance</string>
+	<string name="cs_field_int">Intelligence</string>
+	<string name="cs_field_fth">Faith</string>
+	<string name="cs_field_humanity">Humanity</string>
 </resources>

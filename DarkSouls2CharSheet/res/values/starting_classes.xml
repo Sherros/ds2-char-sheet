@@ -7,4 +7,13 @@
 	<string name="class_sorcerer">Sorcerer</string>
 	<string name="class_templeknight">Temple Knight</string>
 	<string name="class_warrior">Warrior</string>
+	
+	<string-array name="class_name_list">
+		<item>Dual Swordsman</item>
+		<item>Hunter</item>
+		<item>Soldier</item>
+		<item>Sorcerer</item>
+		<item>Temple Knight</item>
+		<item>Warrior</item>
+	</string-array>
 </resources>
