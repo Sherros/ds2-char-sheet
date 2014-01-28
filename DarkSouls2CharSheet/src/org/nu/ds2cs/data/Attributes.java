@@ -1,15 +1,22 @@
 package org.nu.ds2cs.data;
 
+import com.google.gson.Gson;
+
 /**
  * 
  * @author peter
  */
-public final class Attributes
+public final class Attributes extends AbstractData implements Json
 {
 	public static final int AttributeMin = 0;
 	public static final int AttributeMax = 99;
 	public static final int AttributeCount = 10;
 	public static final int AttributeTotalMax = AttributeMax * AttributeCount;
+	
+	public static Attributes instantiateFromJson(String json)
+	{
+		return new Gson().fromJson(json, Attributes.class);
+	}
 	
 	private int agility;
 	private int attunement;
@@ -24,6 +31,7 @@ public final class Attributes
 	
 	/**
 	 * Initialize all attributes to an individually specified value.
+	 * @param id
 	 * @param vigor
 	 * @param endurance
 	 * @param vitality
@@ -35,8 +43,9 @@ public final class Attributes
 	 * @param intelligence
 	 * @param faith 
 	 */
-	public Attributes(int vigor, int endurance, int vitality, int attunement, int strength, int dexterity, int resistance, int agility, int intelligence, int faith)
+	public Attributes(Integer id, int vigor, int endurance, int vitality, int attunement, int strength, int dexterity, int resistance, int agility, int intelligence, int faith)
 	{
+		super(id);
 		this.agility = agility;
 		this.attunement = attunement;
 		this.dexterity = dexterity;
@@ -54,22 +63,50 @@ public final class Attributes
 	 */
 	public Attributes()
 	{
-		this(0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
+		this(null, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
 	}
 	
 	/**
 	 * Initialize all attributes based on their corresponding index in the array <code>values</code>.
 	 * Uses the order of the game's character sheet screen for matching index values with attributes.
+	 * @param id
 	 * @param values 
 	 */
-	public Attributes(int[] values)
+	public Attributes(Integer id, int[] values)
 	{
-		this(values[0], values[1], values[2], values[3], values[4], values[5], values[6], values[7], values[8], values[9]);
+		this(id, values[0], values[1], values[2], values[3], values[4], values[5], values[6], values[7], values[8], values[9]);
 	}
 	
+	/**
+	 * Get the total value of all combined attributes.
+	 * @return Returns the integer value of all attribute values added together.
+	 */
 	public int getCurrentTotal()
 	{
 		return agility + attunement + dexterity + endurance + faith + intelligence + resistance + strength + vigor + vitality;
+	}
+	
+	public String toJson()
+	{
+		return new Gson().toJson(this);
+	}
+	
+	public void parseJson(String json)
+	{
+		Attributes parsed = new Gson().fromJson(json, Attributes.class);
+		if(parsed != null)
+		{
+			setAgility(parsed.getAgility());
+			setAttunement(parsed.getAttunement());
+			setDexterity(parsed.getDexterity());
+			setEndurance(parsed.getEndurance());
+			setFaith(parsed.getFaith());
+			setIntelligence(parsed.getIntelligence());
+			setResistance(parsed.getResistance());
+			setStrength(parsed.getStrength());
+			setVigor(parsed.getVigor());
+			setVitality(parsed.getVitality());
+		}
 	}
 	
 	public int getAgility() { return agility; }

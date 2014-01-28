@@ -3,7 +3,12 @@
       package="org.nu.ds2cs"
       android:versionCode="1"
       android:versionName="1.0">
-    <application android:label="@string/app_name" android:icon="@drawable/ic_launcher">
+	
+	<uses-sdk android:minSdkVersion="14" android:targetSdkVersion="19" />
+	
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" android:maxSdkVersion="18" />
+	
+    <application android:label="@string/app_name" android:icon="@drawable/ic_launcher" android:allowBackup="true">
         <activity android:name="MainActivity"
                   android:label="@string/app_name">
             <intent-filter>
@@ -12,5 +17,4 @@
             </intent-filter>
         </activity>
     </application>
-	<uses-sdk android:minSdkVersion="14" android:targetSdkVersion="19" />
 </manifest>
